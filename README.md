@@ -2,7 +2,7 @@
 
 To Run This Program Follow Bellow Steps:
 
-- Clone this Repository `git clone https://github.com/rifatcse09/commission-calculataion.git`
+- Clone this Repository `git clone https://github.com/rifatcse09/commission-calculate`
 - Traverse to root directory of the project `~/commission-calculate`
 - Run `composer install` from Terminal
 - Traverse to `cd src` directory
