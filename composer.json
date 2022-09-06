@@ -1,0 +1,36 @@
+{
+    "name": "application/commission-task-skeleton",
+    "description": "Commision Rate Calculation Task",
+    "keywords": [],
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Application\\CommissionTask\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Application\\CommissionTask\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-bcmath": "*",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "*",
+        "phpunit/phpunit": "9.5"
+    },
+    "config": {
+        "sort-packages": true,
+        "bin-dir": "bin"
+    },
+    "scripts": {
+        "phpunit": "phpunit",
+        "fix-cs": "php-cs-fixer fix",
+        "test-cs": "php-cs-fixer fix --dry-run -v",
+        "test": ["@phpunit", "@test-cs"]
+    }
+}
