@@ -83,15 +83,28 @@ class Index implements CalculateInterface
              $dataProcessRepository = new DataProcessRepository();
              $commissionProceess = new DataProcessor($dataProcessRepository);
              $this->commission = $commissionProceess->dataProcess($dataObject);
+             return $this->commission;
     
         } catch
         (\Exception $exception) {
-            self::printOutput('message : ' . $exception->getMessage());
+            echo "Error caught: " . $exception->getMessage() .PHP_EOL;
         }
-        return $this->commission;
+        return [];
+        
     }
 
-    public function printOutput($message)
+    /**
+     * Print result 
+     *
+     * @param  $message  
+     * final collection of commission
+     * 
+     * @throws Some_Exception_Class If something interesting cannot happen
+     * @author Rifat <rifatcse09@gmail.com>
+     * @return commission 
+     * 
+     */ 
+    public function showOutput($message)
     {
         echo $message . PHP_EOL;
     }

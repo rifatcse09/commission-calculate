@@ -3,9 +3,9 @@ require_once 'Index.php';
 
 use Application\CommissionTask\Index;
 
-$mainClass = new Index($argv);
-$result = $mainClass->calculate();
+$sourceClass = new Index($argv);
+$result = $sourceClass->calculate();
 
 foreach ($result as $r) {
-    $mainClass->printOutput($r);
+    $sourceClass->showOutput($r);
 }
