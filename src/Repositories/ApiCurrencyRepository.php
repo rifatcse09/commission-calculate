@@ -3,9 +3,6 @@ declare(strict_types=1);
 
 namespace Application\CommissionTask\Repositories;
 
-require_once (__DIR__ . '/../Interfaces/ApiConnectInterface.php');
-require_once (__DIR__ . '/../Interfaces/ConvertCurrencyInterface.php');
-
 use Application\CommissionTask\Interfaces\ApiConnectInterface;
 use Exception;
 

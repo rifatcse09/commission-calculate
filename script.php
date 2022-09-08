@@ -1,5 +1,7 @@
 <?php
-require_once 'Index.php';
+//require_once 'Index.php';
+
+require_once(__DIR__ . "/vendor/autoload.php");
 
 use Application\CommissionTask\Index;
 

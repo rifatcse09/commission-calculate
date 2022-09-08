@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Application\CommissionTask\Service;
 
-require_once (__DIR__ . '/../Interfaces/DataProcessInterface.php');
-
 use Application\CommissionTask\Interfaces\DataProcessInterface;
 
 /**

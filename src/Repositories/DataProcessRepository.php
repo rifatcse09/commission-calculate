@@ -3,9 +3,9 @@ declare(strict_types=1);
 
 namespace Application\CommissionTask\Repositories;
 
-require_once (__DIR__ . '/../Interfaces/DataProcessInterface.php');
-require_once (__DIR__ . '/TransactionRepository.php');
-require_once (__DIR__ . '/../Service/Transaction.php');
+// require_once (__DIR__ . '/../Interfaces/DataProcessInterface.php');
+// require_once (__DIR__ . '/TransactionRepository.php');
+// require_once (__DIR__ . '/../Service/Transaction.php');
 
 use Application\CommissionTask\Interfaces\DataProcessInterface;
 use Application\CommissionTask\Service\Transaction;
