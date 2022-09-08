@@ -3,10 +3,6 @@ declare(strict_types=1);
 
 namespace Application\CommissionTask\Repositories;
 
-require_once (__DIR__ . '/../Abstracts/TransactionAbstract.php');
-require_once (__DIR__ . '/../Repositories/ApiCurrencyRepository.php');
-require_once (__DIR__ . '/../Repositories/ConvertCurrencyRepository.php');
-
 use Application\CommissionTask\Abstracts\TransactionAbstract;
 use Application\CommissionTask\Repositories\ApiCurrencyRepository;
 use Application\CommissionTask\Repositories\ConvertCurrencyRepository;

@@ -4,13 +4,6 @@ declare(strict_types=1);
 
 namespace Application\CommissionTask;
 
-require_once 'Service/FileProcessor.php';
-require_once 'Repositories/TransactionRepository.php';
-require_once 'Repositories/DataProcessRepository.php';
-require_once 'Service/Transaction.php';
-require_once 'Service/DataProcessor.php';
-require_once 'Interfaces/CalculateInterface.php';
-
 use Application\CommissionTask\Service\FileProcessor;
 use Application\CommissionTask\Interfaces\CalculateInterface;
 use Application\CommissionTask\Repositories\DataProcessRepository;
